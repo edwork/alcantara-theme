@@ -1,6 +1,6 @@
 # Alcantara
 
-[![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/docs/faq/custom_repositories/)
+[![HACS Default](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://hacs.xyz)
 [![Validate](https://github.com/edwork/alcantara-theme/actions/workflows/validate.yml/badge.svg)](https://github.com/edwork/alcantara-theme/actions/workflows/validate.yml)
 [![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=edwork&repository=alcantara-theme&category=theme)
 
@@ -49,11 +49,15 @@ quilt textures are SVGs embedded in the theme file, so there's nothing to copy i
 
 ## Installation
 
-### HACS
+### HACS (Marketplace)
 
-1. HACS → ⋮ → **Custom repositories**. Add `https://github.com/edwork/alcantara-theme` with type **Theme**.
-2. Search for **Alcantara**, then **Download**.
-3. Run the **Home Assistant Frontend: Reload themes** action (`frontend.reload_themes`), or restart.
+[![Open your Home Assistant instance and open this repository in HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=edwork&repository=alcantara-theme&category=theme)
+
+1. Open HACS, search for **Alcantara**, then **Download**.
+2. Run the **Home Assistant Frontend: Reload themes** action (`frontend.reload_themes`), or restart.
+
+If it doesn't show up in search, add it as a custom repository: HACS → ⋮ → **Custom repositories**,
+add `https://github.com/edwork/alcantara-theme` with type **Theme**, then search again.
 
 ### Manual
 
